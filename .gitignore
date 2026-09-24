@@ -14,3 +14,19 @@ __pycache__/
 
 # VS Code
 .vscode/
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+venv--python3.11/
+
+# Temporary VS Code files
+*tempCodeRunnerFile.py
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store

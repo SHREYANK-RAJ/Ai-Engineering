@@ -11,7 +11,7 @@ if not my_api_key:
 
 client=Groq(api_key=my_api_key)
 
-model="llama-3.3-70b-versatile"
+model="openai/gpt-oss-120b"
 prompt = ("Explain how the process of a FIFA selection works.Also explain how the selection process is different for men and u17")
 message={
     "role" : "user",

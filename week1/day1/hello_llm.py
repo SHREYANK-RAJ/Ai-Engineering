@@ -8,7 +8,7 @@ my_api_key = os.getenv("GROQ_API_KEY")
 if not my_api_key:
     raise ValueError("GROQ_API_KEY not found in environment variables. Please set it in your .env file.")
 client = Groq(api_key=my_api_key)
-model = "llama-3.1-8b-instant"
+model = "openai/gpt-oss-120b"
 role= "user"
 prompt = "Write a short poem about the beauty of nature."
 message = {"role": role, "content": prompt}

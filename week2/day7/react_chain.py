@@ -10,7 +10,7 @@ if not my_api_key:
     raise ValueError("API Key not found!")
 
 client = Groq(api_key=my_api_key)
-model = "llama-3.3-70b-versatile"
+model = "openai/gpt-oss-120b"
 # TOOLS
 def detect_issue(text):
     if "laptop" in text.lower():

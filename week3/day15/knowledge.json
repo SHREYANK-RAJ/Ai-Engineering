@@ -1,0 +1,32 @@
+[
+  {
+    "text": "Customers can request a replacement for damaged products within 15 days of delivery.",
+    "category": "replacement",
+    "is_active": true
+  },
+  {
+    "text": "Orders above Rs 5000 qualify for free standard shipping.",
+    "category": "shipping",
+    "is_active": true
+  },
+  {
+    "text": "Customers receive a tracking link within 24 hours after their order is dispatched.",
+    "category": "tracking",
+    "is_active": true
+  },
+  {
+    "text": "Refunds are processed within 5 to 7 business days after the returned product is approved.",
+    "category": "refund",
+    "is_active": true
+  },
+  {
+    "text": "Customers can change their delivery address before the order is shipped.",
+    "category": "delivery",
+    "is_active": true
+  },
+  {
+    "text": "Support tickets submitted through email are usually answered within one business day.",
+    "category": "support",
+    "is_active": true
+  }
+]
